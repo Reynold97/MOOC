@@ -1,0 +1,1917 @@
+[
+    {
+        "type": "CompositeElement",
+        "element_id": "e98dc66b1410df4d292257b4806d8ac1",
+        "text": "The Markdown Guide\n\nMatt Cone\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License\n\nTo Simon Naseem\n\nContents",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 1,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "cdc2b1de431ed7888754e7e0cea560cb",
+        "text": "Introduction Where to Get This Book 1 How to Read This Book 1 Beginner Resources 1 Syntax Examples 1 Asides 11 Quirks 11 Contributing 111 Reporting Issues v Acknowledgements v Getting Started Kicking the Tires How Markdown Works Additional Resources Doing Things With Markdown Websites Documents Notes Books Presentations Email Documentation 10 Basic Syntax 11 Headings 11",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Introduction</td><td/></tr><tr><td>Where to Get This Book</td><td>1</td></tr><tr><td>How to Read This Book</td><td>1</td></tr><tr><td>Beginner Resources</td><td>1</td></tr><tr><td>Syntax Examples</td><td>1</td></tr><tr><td>Asides</td><td>11</td></tr><tr><td>Quirks</td><td>11</td></tr><tr><td>Contributing</td><td>111</td></tr><tr><td>Reporting Issues</td><td>v</td></tr><tr><td>Acknowledgements</td><td>v</td></tr><tr><td>Getting Started</td><td/></tr><tr><td>Kicking the Tires</td><td/></tr><tr><td>How Markdown Works</td><td/></tr><tr><td>Additional Resources</td><td/></tr><tr><td>Doing Things With Markdown</td><td/></tr><tr><td>Websites</td><td/></tr><tr><td>Documents</td><td/></tr><tr><td>Notes</td><td/></tr><tr><td>Books</td><td/></tr><tr><td>Presentations</td><td/></tr><tr><td>Email</td><td/></tr><tr><td>Documentation</td><td>10</td></tr><tr><td>Basic Syntax</td><td>11</td></tr><tr><td>Headings</td><td>11</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 4,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e6a03c2e23015cb6d4f04f54c2893366",
+        "text": "CONTENTS",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "145c1f75b3f697c03e2714ad56d1d601",
+        "text": "Alternate Syntax 11 Paragraphs 12 Line Breaks 12 Emphasis 13 Bold 13 Ttalic 14 Bold and talic 15 Blockquotes 15 Blockquotes with Multiple Paragraphs 16 Nested Blockquotes 16 Blockquotes with Other Elements 17 Lists 18 Ordered Lists 18 Unordered Lists 20 Adding Elements in Lists 22 Code 27 Escaping Tick Marks 27 Code Blocks 28 Horizontal Rules 29 Links 30 Adding Titles 30 URLs and Email Addresses 30 Formatting Links 31 Reference-style Links 31 Images 34 Escaping Characters 35",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Alternate Syntax</td><td>11</td></tr><tr><td>Paragraphs</td><td>12</td></tr><tr><td>Line Breaks</td><td>12</td></tr><tr><td>Emphasis</td><td>13</td></tr><tr><td>Bold</td><td>13</td></tr><tr><td>Ttalic</td><td>14</td></tr><tr><td>Bold and talic</td><td>15</td></tr><tr><td>Blockquotes</td><td>15</td></tr><tr><td>Blockquotes with Multiple Paragraphs</td><td>16</td></tr><tr><td>Nested Blockquotes</td><td>16</td></tr><tr><td>Blockquotes with Other Elements</td><td>17</td></tr><tr><td>Lists</td><td>18</td></tr><tr><td>Ordered Lists</td><td>18</td></tr><tr><td>Unordered Lists</td><td>20</td></tr><tr><td>Adding Elements in Lists</td><td>22</td></tr><tr><td>Code</td><td>27</td></tr><tr><td>Escaping Tick Marks</td><td>27</td></tr><tr><td>Code Blocks</td><td>28</td></tr><tr><td>Horizontal Rules</td><td>29</td></tr><tr><td>Links</td><td>30</td></tr><tr><td>Adding Titles</td><td>30</td></tr><tr><td>URLs and Email Addresses</td><td>30</td></tr><tr><td>Formatting Links</td><td>31</td></tr><tr><td>Reference-style Links</td><td>31</td></tr><tr><td>Images</td><td>34</td></tr><tr><td>Escaping Characters</td><td>35</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "9630b2241c3d87367ad904815ad3ca59",
+        "text": "Characters You Can Escape 36 Extended Syntax 37 Availability 37 Lightweight Markup Languages 37 Markdown Processors 38 Tables 38 Alignment 39 Formatting Text in Tables 41 Escaping Pipe Characters in Tables 41",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Characters You Can Escape</td><td>36</td></tr><tr><td>Extended Syntax</td><td>37</td></tr><tr><td>Availability</td><td>37</td></tr><tr><td>Lightweight Markup Languages</td><td>37</td></tr><tr><td>Markdown Processors</td><td>38</td></tr><tr><td>Tables</td><td>38</td></tr><tr><td>Alignment</td><td>39</td></tr><tr><td>Formatting Text in Tables</td><td>41</td></tr><tr><td>Escaping Pipe Characters in Tables</td><td>41</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 5,
+            "is_continuation": true,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "3a8510fca9fd9a582c269806c6063825",
+        "text": "CONTENTS",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "6028baa377a3fd823f39d3a8867d9a6c",
+        "text": "Fenced Code Blocks Syntax Highlighting 41 42 Footnotes 43 Heading IDs 45 Linking to Heading IDs 46 Definition Lists 46 Strikethrough 47 Task Lists 48 Automatic URL Linking 48 Disabling Automatic URL Linking 49 Cheat Sheet 50 Basic Syntax 50 Extended Syntax 51 About the Author 52",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Fenced Code Blocks Syntax Highlighting</td><td>41 42</td></tr><tr><td>Footnotes</td><td>43</td></tr><tr><td>Heading IDs</td><td>45</td></tr><tr><td>Linking to Heading IDs</td><td>46</td></tr><tr><td>Definition Lists</td><td>46</td></tr><tr><td>Strikethrough</td><td>47</td></tr><tr><td>Task Lists</td><td>48</td></tr><tr><td>Automatic URL Linking</td><td>48</td></tr><tr><td>Disabling Automatic URL Linking</td><td>49</td></tr><tr><td>Cheat Sheet</td><td>50</td></tr><tr><td>Basic Syntax</td><td>50</td></tr><tr><td>Extended Syntax</td><td>51</td></tr><tr><td>About the Author</td><td>52</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 6,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "fd1822cdc083c5b3f244535fb9a2c978",
+        "text": "Introduction\n\nI’m a technical writer, and I’ve used a lot of writing tools over the course of my professional career. One of the most interesting tools I’ve encountered is a markup language called Markdown.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "b28256137bed0c8681424686d959fe6d",
+        "text": "My litmus test for a successful writing tool is whether using it can become second nature. Does writing with it feel natural? Or do I feel like I’m constantly fighting against it? I stop using tools that hinder me. Time is valuable, and I don’t have the luxury of indulging things that squander that precious resource.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0c5d2e8400798d7819485d1b5ad9f608",
+        "text": "Markdown passes the test with flying colors. Writing using Markdown just feels right. Since its introduction in 2004, millions of people have starting using it to write everything from notes to documents. It’s one of the most successful markup languages of all time.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6c31b2faf655fdfeb3b0cc39e11fd596",
+        "text": "Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It’s easy to learn and simple to use. Its tremendous success means it’s ubiquitous enough to replace WYSIWYG editors on websites like Reddit and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "37c3cb229e9e60373185db3511b1a5cd",
+        "text": "I’ve been using Markdown for years now and I recommend it to everyone I know. There are lots of reasons why you should learn to write using Markdown, but one of the best reasons is that it’s better than the alternatives. Learning Markdown means you can stop using all the subpar writing tools you’ve tolerated for years. It can also further your career. Believe it or not, knowing how to write using Markdown is a requirement for many jobs.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "347a05a926028a7d8bd37ba0e32e1ce1",
+        "text": "That brings us to this book. I couldn’t find a comprehensive Markdown reference guide, so I decided to create one.\n\nThe Markdown Guide has humble beginnings. It started as a single webpage in 2017. After receiving positive feedback from friends and coworkers, I decided to expand the site. To my astonishment, the Markdown Guide was receiving hundreds of unique\n\nIntroduction",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 7,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "4356ae5288984056e301e049ede18fd0",
+        "text": "ii\n\nvisitors a day by early 2018. At that point, it occurred to me that people might also appreciate the Markdown Guide in book format.\n\nI hope you enjoy reading this book as much as I’ve enjoyed writing it. Above all, I hope it helps you write using Markdown, and I hope using Markdown makes you a better writer.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c4b370d11604ae14dceb848af70aa3d2",
+        "text": "Where to Get This Book\n\nI want everyone to read the Markdown Guide. That’s why it’s free to download in PDF, MOBI, and EPUB format. I hope you share it with your friends and family. The vast majority of the book is also available online at https://www.markdownguide. org.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "98d332d558d215748fbbeb4dd960f571",
+        "text": "How to Read This Book\n\nThis book is designed to be a comprehensive reference guide to the Markdown markup language. If you’re new to Markdown, start at the beginning and read to the end. If you’re an expert user, keep this book handy — you never know when you’ll need to refer back to the cheat sheet.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "afdee1ee55371e0a4d4ab09d45c4651c",
+        "text": "Beginner Resources\n\nThe first two chapters of this book are designed exclusively for readers who are new to Markdown. Getting Started provides a quick introduction to Markdown. It shows you how to get going quickly with the Dillinger online Markdown editor, and it sheds light on some of the stuff going on behind the scenes.\n\nDoing Things With Markdown talks about what you can create using Markdown. It also presents some the applications you can use to write using Markdown.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9aafdf0bad10d2fafb6bc67d8674cf7a",
+        "text": "Syntax Examples\n\nTo help you learn how to write using Markdown, I’ve provided three sections for every syntax element in the chapters on basic and extended syntax:\n\nIntroduction\n\niii\n\n• Markdown: This is what you’ll type in your Markdown application.\n\n• HTML: This is the HTML code that’ll be generated by the Markdown processor.\n\n• Rendered Output: This is what the reader will see.\n\nTo learn more about the Markdown to HTML conversion, see the section on how Markdown works.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 8,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d4f016de68fecbb186f966ea7f29cb74",
+        "text": "Asides\n\nExtra bits of information are displayed with an “i” icon next to them, like this:\n\nHere’s some extra information you might find helpful.\n\nTips are displayed with a key icon next to them, like this:\n\nHere’s a cool tip you might find useful.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 9,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6a736c40d936c4c0a2dcc12be9035413",
+        "text": "Quirks\n\nSome of the Markdown and HTML code samples in this book “wrap” to the next line. In the situations where that happens, you’ll see a \\ at the end of the first line of the code block. That \\ isn’t actually part of the code. It’s displayed there to indicate that the next line of the code block is actually part of the same line.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 9,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a3ebf6c835cb6cd29ba0f5e852663b6a",
+        "text": "Contributing\n\nThis book is an open-source project, and your contributions are welcome. The repository is hosted on GitHub. See the README for instructions and guidelines.\n\nIntroduction\n\niv\n\nReporting Issues\n\nFind something wrong? Create an issue on GitHub and I’ll fix it as soon as possible. Thank you!\n\nAcknowledgements\n\nI’m eternally grateful to Reem and our children, Finn and Simon. This book wouldn’t exist without their love and support.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 9,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d2755d0098757cab0f49a71a10ec6d84",
+        "text": "I greatly appreciate the help of AK Molteni, Gaylin Walli, Juan Torrez, Diana Lynch, and my parents, Steve Cone and Kathie Lathan, who were sounding boards for the website and book. Thanks to Josh Ellingson for creating the amazing, jaw-dropping artwork on the cover. Last, but certainly not least, I’d like to thank you and everyone else who has read and contributed to the Markdown Guide. You’ve not only made this book possible, you’ve made it better!",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 10,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a7198f95e4b7a89cd220d761834dcec0",
+        "text": "1. Getting Started\n\nMarkdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "5d43fe72c1dcafb8a6ef2f28274214e2",
+        "text": "Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown- formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "42999ae26090d5160a0585e808cc90a4",
+        "text": "For instance, to denote a heading, you add a number sign before it (e.g., # Heading One). Or to make a phrase bold, you add two asterisks before and after it (e.g., **this text is bold**). It may take a while to get used to seeing Markdown syntax in your text, especially if you’re accustomed to WYSIWYG applications. The screenshot below shows a Markdown file displayed in the Atom text editor.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "31bd256c40c9d9578655b88766de67f1",
+        "text": "2 availability.md ## Lightweight Markup Languages There are several lightweight markup languages that are *xsupersets* of Markdown. They include Gruber's basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages: I [CommonMark] (http://commonmark.org) I [GitHub Flavored Markdown",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "3e3b0cc9702beb122446d20c07894e71",
+        "text": "(GFM)](https://github.github.com/gfm/) I [Markdown Extral (https://michelf.ca/projects/php-markdown/extra/) | [MultiMarkdown] (http://fletcherpenney.net/multimarkdown/)",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "is_continuation": true,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "8613766f2bc1ea0af075525ae684306e",
+        "text": "This is a Markdown file in the Atom text editor.\n\nGetting Started\n\n2\n\nYou can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one of the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web- based applications specifically designed for writing in Markdown.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 11,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "8a33b2c91486d141a3c8c27e3c5043bd",
+        "text": "Depending on the application you use, you may not be able to preview the formatted document in real time. But that’s okay. According to Gruber, Markdown syntax is designed to be readable and unobtrusive, so the text in Markdown files can be read even if it isn’t rendered.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 12,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "4bd3009e84450c61db3d367c1d1b55a9",
+        "text": "The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 12,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "631b6807a180d6eff8aec562cd359e2c",
+        "text": "Kicking the Tires\n\nThe best way to get started with Markdown is to use it. That’s easier than ever before thanks to a variety of free tools.\n\nYou don’t even need to download anything. There are several online Markdown editors that you can use to try writing in Markdown. Dillinger is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the rendered document appears in the right pane.\n\nGetting Started\n\n3",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 12,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1e0b2470c3d8c982ff33510c4504b8f2",
+        "text": "® /' ® orine Markcoun eior- dilinger.jo X) n 596 Untitled Document.md # Dillinger Dillinger Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularS powered HTHLS Markdown Dillinger is a cloud-enabled, mobile-ready, offline-storage, editor. AngularJ$ powered HTMLs Markdown editor. Type some Markdown on the left Type some Markdown on the left See HTML in the right See HTML in the right Magic - Magic You can also: You can also: Inport and save files fron GitHub, Dropbox, Google +",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 13,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f20d2c66d618566fe6f835eff1f2a3e5",
+        "text": "Import and save files from GitHub, Dropbox, Google Drive Drive and One Drive and One Drive - Drag and drop files into Dillinger Drag and drop files into Dillinger Export documents as Markdown, HTML and POF « Export documents as Markdown, HTML and PDF —",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 13,
+            "is_continuation": true,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "af231819d7531a3bbe5f1362b3fc8a70",
+        "text": "The Dillinger Markdown editor is a free and easy way to get started with Markdown.\n\nYou’ll probably want to keep the Dillinger website open as you read through this guide. That way you can try the syntax as you learn about it. After you’ve become familiar with Markdown, you may want to use a Markdown application that can be installed on your desktop computer or mobile device.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 13,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e34d8edd29cbda6f3481d2be4e2d548c",
+        "text": "How Markdown Works\n\nDillinger makes writing in Markdown easy because it hides the stuff happening behind the scenes, but it’s worth exploring how the process works in general.\n\nWhen you write in Markdown, the text is stored in a plaintext file that has an\n\nGetting Started\n\n4\n\n.md or .markdown extension. But then what? How is your Markdown-formatted file converted into HTML or a print-ready document?",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 13,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "fe1f6d2422dfcbdfa628c5d45ceda1b4",
+        "text": "The short answer is that you need a Markdown application capable of processing the Markdown file. There are lots of applications available — everything from simple scripts to desktop applications that look like Microsoft Word. Despite their visual differences, all of the applications do the same thing. Like Dillinger, they all convert Markdown-formatted text to HTML so it can be displayed in web browsers.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 14,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "401e7a388ec22af2f6b137d9fd546c24",
+        "text": "Markdown applications use something called a Markdown processor (also commonly referred to as a “parser” or an “implementation”) to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 14,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6db151267daa9967151d4b3b62b2bb08",
+        "text": "The Markdown application and processor are two separate components. For the sake of brevity, I’ve combined them into one element (“Markdown App”) in the figure below.\n\nGetting Started\n\n5\n\nMarkdown Markdown HTML File App 00O Rendered Output\n\nThis is a visual overview of the Markdown process.\n\nTo summarize, this is a four-part process:\n\n1. Create a Markdown file using a text editor or a dedicated Markdown applica- tion. The file should have an .md or .markdown extension.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 14,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "5f81e81c9f35abe18cbed00b84c37017",
+        "text": "2. Open the Markdown file in a Markdown application.\n\n3. Use the Markdown application to convert the Markdown file to an HTML document.\n\n4. View the HTML file in a web browser or use the Markdown application to convert it to another file format, like PDF.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 15,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c80dcdf80a7955e4b76b458199ca828e",
+        "text": "From your perspective, the process will vary somewhat depending on the application you use. For example, Dillinger essentially combines steps 1-3 into a single, seamless interface — all you have to do is type in the left pane and the rendered output\n\nGetting Started\n\n6\n\nmagically appears in the right pane. But if you use other tools, like a text editor with a static website generator, you’ll find that the process is much more visible.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 15,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "40afcf79d364354ddbbf7b32158c878f",
+        "text": "Additional Resources\n\nThere are lots of other resources you can use to learn Markdown. Here are a few of my favorites:\n\n• John Gruber’s Markdown documentation. The original guide written by the creator of Markdown.\n\n• Markdown Tutorial. An open source website that allows you to try Markdown in your web browser.\n\n• Awesome Markdown. A list of Markdown tools and learning resources.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 16,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a8449ea4000462b961d202c5499615ae",
+        "text": "• Typesetting Markdown. A multi-part series that describes an ecosystem for typesetting Markdown documents using pandoc and ConTeXt.\n\n2. Doing Things With Markdown\n\nNow that you know what Markdown is, you’re probably wondering what you can do with it. The answer is: just about anything. Markdown is a fast and easy way to take notes, create content for a website, and produce print-ready documents.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 16,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "eabb223b681f5195653157c170ef9708",
+        "text": "It doesn’t take long to learn the Markdown syntax, and once you know how to use it, you can write using Markdown just about everywhere. Most people use Markdown to create content for the web, but Markdown is good for formatting everything from email messages to grocery lists.\n\nHere are some examples of what you can do with Markdown.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 17,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "2373fa33e236589adcc325c45460eefa",
+        "text": "Websites\n\nMarkdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 17,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6e1a34f2aef6ed9d607ce7c55b9d932d",
+        "text": "If you’re looking for the simplest possible way to create a website with Markdown files, check out blot.im and smallvictori.es. After you sign up for one of these services, they create a Dropbox folder on your computer. Just drag and drop your Markdown files into the folder and — poof! — they’re on your website. It couldn’t be easier.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 17,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "3808f51f834cd6be3202195fe008aba1",
+        "text": "If you’re familiar with HTML, CSS, and version control, check out Jekyll, a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that GitHub Pages provides free hosting for Jekyll- generated websites. If Jekyll isn’t your cup of tea, just pick one of the many other static site generators available.\n\ni\n\nI used Jekyll to create the Markdown Guide website. You can view the source code on GitHub.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 17,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0218a54a901111b4fc798dda7a16b702",
+        "text": "If you’d like to use a content management system (CMS) to power your website, take a look at Ghost. It’s a free and open-source blogging platform with a nice Markdown\n\nDoing Things With Markdown\n\n8\n\neditor. If you’re a WordPress user, you’ll be happy to know there’s Markdown support for websites hosted on WordPress.com. Self-hosted WordPress sites can use the Jetpack plugin.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 17,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "2a4827d799614773f5422a8a0d6f97e3",
+        "text": "Documents\n\nMarkdown doesn’t have all the bells and whistles of word processors like Microsoft Word, but it’s good enough for creating basic documents like assignments and letters. You can use a Markdown document authoring application to create and export Markdown-formatted documents to PDF or HTML file format. The PDF part is key, because once you have a PDF document, you can do anything with it — print it, email it, or upload it to a website.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 18,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "3ea9be03091bb3d3787789f913d6c92c",
+        "text": "Here are some Markdown document authoring applications we recommend:\n\n• Mac: iA Writer, Ulysses, Marked, or MacDown\n\n• iOS / Android: iA Writer or Ulysses (iOS only)\n\n• Windows: MarkdownPad or ghostwriter (GitHub project)\n\n• Web: Dillinger or StackEdit\n\n) 4\n\nBoth iA Writer and Ulysses provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer’s “Academic – MLA Style” template indents paragraphs and adds double sentence spacing.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 18,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "648c36fead98a5cc5cee6192275a1d6d",
+        "text": "Notes\n\nIn nearly every way, Markdown is the ideal syntax for taking notes. Sadly, Evernote and OneNote, two of the most popular note applications, don’t currently support Markdown. The good news is that several other note applications do support Markdown:\n\nDoing Things With Markdown\n\n9\n\n• Simplenote is a free, barebones note-taking application available for every platform.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 18,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "8aec36f796638be8164b075faf05b9a2",
+        "text": "• Bear is an Evernote-like application available for Mac and iOS devices. It doesn’t exclusively use Markdown syntax by default, but you can enable Markdown compatibility mode.\n\n• Boostnote bills itself as an “open source note-taking app designed for program- mers.”\n\nIf you can’t part with Evernote, check out Marxico, a subscription-based Markdown editor for Evernote, or use Markdown Here with the Evernote website.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 19,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a7269cf4afbd22496eca006d3eca3c2b",
+        "text": "Books\n\nLooking to self-publish a novel? Try Leanpub, a service that takes your Markdown- formatted files and turns them into an electronic book. Leanpub outputs your book in PDF, EPUB, and MOBI file format. If you’d like to create paperback copies of your book, you can upload the PDF file to another service such as Kindle Direct Publishing. To learn more about writing and self-publishing a book using Markdown, read this blog post.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 19,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f6d75a235313e073e15bff50233c1a6c",
+        "text": "Presentations\n\nBelieve it or not, you can generate presentations from Markdown-formatted files. Creating presentations in Markdown takes a little getting used to, but once you get the hang of it, it’s a lot faster and easier than using an application like PowerPoint or Keynote. Remark (GitHub project) is a popular browser-based Markdown slideshow tool, as is Cleaver (GitHub project). If you use a Mac and would prefer to use an application, check out Deckset or Marked.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 19,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "722907374d959bd0d54b0390b84dbc5f",
+        "text": "Email\n\nIf you send a lot of email and you’re tired of the formatting controls available on most email provider websites, you’ll be happy to learn there’s an easy way to write email messages using Markdown. Markdown Here is a free and open-source browser extension that converts Markdown-formatted text into HTML that’s ready to send.\n\nDoing Things With Markdown\n\n10",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 19,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "970d1dee3db39139f5403d40716e02ea",
+        "text": "Documentation\n\nMarkdown is a natural fit for technical documentation. Companies like GitHub are increasingly switching to Markdown for their documentation — check out their blog post about how they migrated their Markdown-formatted documentation to Jekyll. If you write documentation for a product or service, take a look at these handy tools:",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 20,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9003e789007d8ac5c8d832f652db6d78",
+        "text": "• Read the Docs can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a service for commercial entities.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 20,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "3a02c1fd204298dbfd5e97575c506a96",
+        "text": "• MkDocs is a fast and simple static site generator that’s geared towards building documentation. The source files are written in Markdown and organized with a single YAML configuration file. MkDocs has several built in themes, including a port of the Read the Docs documentation theme. One of the newest themes is MkDocs Material, which incorporates elements of Google’s Material Design.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 20,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "edda44ddd6643b750e7228a5c7738d29",
+        "text": "• Docusaurus is a static site generator designed exclusively for creating docu- mentation websites. It supports translations, search, and versioning.\n\n• VuePress is a static site generator powered by Vue and optimized for writing technical documentation.\n\n• Jekyll was mentioned earlier in the section on websites, but it’s also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the Jekyll documentation theme.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 20,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "56752397e64e949ff77b9bded224fd2a",
+        "text": "3. Basic Syntax\n\nNearly all Markdown applications support the basic syntax outlined in John Gruber’s original design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.\n\n) 4\n\nUsing Markdown doesn’t mean that you can’t also use HTML. You can add HTML tags to any Markdown file. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find that it’s easier to use HTML tags for images.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 21,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e470fe0718853415bc3d9f2d4e85847b",
+        "text": "Headings\n\nTo create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 21,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "3bb9cfaac39b2646a8566e38ff6b115f",
+        "text": "Markdown HTML # Heading level 1 <h1>Heading 1</h1> ## Heading level 2 <h2>Heading 2</h2> ### Heading level 3 <h3>Heading 3</h3> ### Heading level 4 <h4>Heading 4</h4> ### Heading level 5 <h5>Heading 5¢/h5> #EE Heading level 6 <h6>Heading 6</h6>",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Markdown</td><td>HTML</td><td/></tr><tr><td># Heading level 1</td><td>&lt;h1&gt;Heading</td><td>1&lt;/h1&gt;</td></tr><tr><td>## Heading level 2</td><td>&lt;h2&gt;Heading</td><td>2&lt;/h2&gt;</td></tr><tr><td>### Heading level 3</td><td>&lt;h3&gt;Heading</td><td>3&lt;/h3&gt;</td></tr><tr><td>### Heading level 4</td><td>&lt;h4&gt;Heading</td><td>4&lt;/h4&gt;</td></tr><tr><td>### Heading level 5</td><td>&lt;h5&gt;Heading</td><td>5¢/h5&gt;</td></tr><tr><td>#EE Heading level 6</td><td>&lt;h6&gt;Heading</td><td>6&lt;/h6&gt;</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 21,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "865e86309a14a4d07aab048b89c31901",
+        "text": "Alternate Syntax\n\nAlternatively, on the line below the text, add any number of == characters for heading level 1 or -- characters for heading level 2.\n\nBasic Syntax\n\n12\n\nMarkdown HTML Heading level 1 <h1>Heading level 1</h1> =============== Heading level 2 <h2>Heading level 2</h2> ---------------\n\nParagraphs\n\n1\n\nI\n\n2\n\n3\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 21,
+            "text_as_html": "<table><thead><tr><th>Markdown</th><th>HTML</th><th></th></tr><tr><th>Heading level 1</th><th>&lt;h1&gt;Heading</th><th>level 1&lt;/h1&gt;</th></tr></thead><tbody><tr><td>—— = —==== Heading level 2</td><td>&lt;h2&gt;Heading</td><td>level 2&lt;/h2&gt;</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "20bb3435e443b72f73f41134bba7b30a",
+        "text": "IS\n\n2\n\n3\n\nTo create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs.\n\nMarkdown\n\nI really like using Markdown. I think I'll use it from now on. HTML <p>I really like using Markdown.</p> <p>I think I'll use it from now on.</p> The rendered output looks like this: I really like using Markdown. I think I’ll use it from now on.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 22,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1f34d83568a2d67bed179db6c976874a",
+        "text": "Line Breaks\n\nTo create a line break (<br>), end a line with two or more spaces, and then type return.\n\nBasic Syntax\n\n13\n\n1\n\n2\n\nMarkdown\n\nThis is the first line.\n\nAnd this is the second line.\n\n1\n\n2\n\nHTML\n\n<p>This is the first line.<br />\n\nAnd this is the second line.</p>\n\nThe rendered output looks like this:\n\nThis is the first line.\n\nAnd this is the second line.\n\nEmphasis\n\nYou can add emphasis by making text bold or italic.\n\n1\n\nIS\n\n2\n\n3\n\n4\n\n5",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 22,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "de298cfde4516455c1b65077312c6dfe",
+        "text": "Bold\n\nTo bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.\n\nMarkdown\n\nI love **bold text**. I love __bold text__. Love**is**bold\n\nI love **bold text**.\n\nThe HTML output of the first two examples is the same.\n\nBasic Syntax\n\n14\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 23,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "841aca8af398e4282a5e32abb873b191",
+        "text": "I\n\n2\n\n3\n\nHTML\n\nI love <strong>bold text</strong>.\n\nLove<strong>is</strong>bold\n\nThe rendered output looks like this:\n\nI love bold text.\n\nLoveisbold",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 24,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d57d89e810d7ed8800232d751f1425ec",
+        "text": "Italic\n\nTo italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.\n\nMarkdown\n\nThe *cat's meow*. The _cat's meow_. A*cat*meow The HTML output of the first two examples is the same. HTML The <em>cat's meow</em>. A<em>cat</em>meow The rendered output looks like this: The cat’s meow. Acatmeow\n\nI\n\n3\n\n5\n\nI\n\nw\n\nBasic Syntax\n\n15\n\n1\n\nIS\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 24,
+            "text_as_html": "<table><tbody><tr><td></td><td>The</td><td>*cat's meow*</td></tr><tr><td></td><td>The</td><td>_cat's meow</td></tr><tr><td rowspan=\"2\">ol</td><td></td><td>Axcat*meow</td></tr><tr><td>The</td><td>HTML output of the first two examples is the same.</td></tr><tr><td></td><td>The</td><td>&lt;em&gt;cat's meow&lt;/em&gt;.</td></tr><tr><td rowspan=\"4\">w</td><td></td><td>A&lt;em&gt;cat&lt;/em&gt;meow</td></tr><tr><td colspan=\"2\">The rendered output looks like this</td></tr><tr><td colspan=\"2\">The cat’s meow.</td></tr><tr><td colspan=\"2\">Acatmeow</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "09e8509313f54722e3019c3180280980",
+        "text": "Bold and Italic\n\nTo emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.\n\nMarkdown\n\n***Important*** text. ___Important___ text. __*Important*__ text. **_Important_** text.\n\n1\n\nThe HTML output of all four examples is the same.\n\nHTML\n\n<strong><em>Important</em></strong> text.\n\nThe rendered output looks like this:\n\nImportant text.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 25,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f85b1ae7080988f81782337f226a98a1",
+        "text": "Blockquotes\n\n1\n\nTo create a blockquote, add a > in front of a paragraph.\n\nMarkdown\n\n> Dorothy followed her through many rooms.\n\nBasic Syntax\n\n16\n\n1\n\n2\n\n3\n\nHTML\n\n<blockquote>\n\n<p>Dorothy followed her through many rooms.</p>\n\n</blockquote>\n\nThe rendered output looks like this:\n\nDorothy followed her through many rooms.\n\n1\n\n2\n\n3",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 25,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "4ae25f7294e15ab65e7025959aa74ba5",
+        "text": "Blockquotes with Multiple Paragraphs\n\nBlockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.\n\nMarkdown\n\n> This the first paragraph. > > And this is the second paragraph.\n\n1\n\nN\n\n2\n\n3\n\n4\n\nHTML\n\n<blockquote> <p>This the first paragraph.</p> <p>And this is the second paragraph.</p> </blockquote>\n\nThe rendered output looks like this:\n\nThis the first paragraph.\n\nAnd this is the second paragraph.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 26,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1bb8cbd8267c6c9a539040f5d459207a",
+        "text": "Nested Blockquotes\n\nBlockquotes can be nested. Add a >> in front of the paragraph you want to nest.\n\nBasic Syntax\n\n17\n\n1\n\nI\n\n2\n\n3\n\nMarkdown\n\n> This the first paragraph. > >> And this is the nested paragraph.\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\nHTML\n\n<blockquote> <p>This the first paragraph.</p> <blockquote> <p>And this is the nested paragraph.</p> </blockquote> </blockquote>\n\nThe rendered output looks like this:\n\nThis the first paragraph.\n\nAnd this is the nested paragraph.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 26,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0b0cd88222a89a6b3aae8cf5e36060c6",
+        "text": "Blockquotes with Other Elements\n\nBlockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.\n\nMarkdown\n\n> ##### The quarterly results look great! > > - Revenue was off the chart. > - Profits were higher than ever. > > *Everything* is going **well**.\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\nBasic Syntax\n\n18\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 27,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "5127b0ace206726b84d32510642fc56d",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\nHTML\n\n<blockquote>\n\n<h5>The quarterly results look great!</h5> <ul> <li>Revenue was off the chart.</li> <li>Profits were higher than ever.</li> </ul> <p><em>Everything</em> is going <strong>well</strong>.</p> </blockquote>\n\nThe rendered output looks like this:\n\nThe quarterly results look great!\n\n• Revenue was off the chart.\n\n• Profits were higher than ever.\n\nEverything is going well.\n\nLists\n\nYou can organize items into ordered and unordered lists.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 28,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "69fd987b5e11e6db70c6ba2f9ada9109",
+        "text": "Ordered Lists\n\nTo create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.\n\nBasic Syntax\n\n19\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nMarkdown\n\n1. First item\n\n2. Second item\n\n3. Third item\n\n4. Fourth item\n\n1. First item\n\nG\n\n1. Second item\n\n1. Third item\n\n1. Fourth item\n\n1. First item\n\n8. Second item\n\n3. Third item\n\n5. Fourth item\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 28,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9735be3676e1008e66225f8cbb2d1552",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\nThe HTML output of all three example lists is the same.\n\nHTML\n\n<ol>\n\n<li>First item</li>\n\n<li>Second item</li>\n\n<li>Third item</li>\n\n<li>Fourth item</li>\n\n</ol>\n\nThe rendered output looks like this:\n\n1. First item\n\n2. Second item\n\n3. Third item\n\n4. Fourth item\n\nNesting List Items\n\nTo nest line items in an ordered list, indent the items four spaces or one tab.\n\nBasic Syntax\n\n20\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 29,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f60731e16f93753024571ce4a6465acb",
+        "text": "Markdown\n\n1. First item\n\n2. Second item\n\n3. Third item\n\n1. Indented item\n\n2. Indented item\n\n4. Fourth item\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\nHTML\n\n<ol>\n\n<li>First item</li> <li>Second item</li> <li>Third item <ol> <li>Indented item</li> <li>Indented item</li> </ol> </li> <li>Fourth item</li> </ol>\n\nThe rendered output looks like this:\n\n1. First item\n\n2. Second item\n\n3. Third item\n\n1. Indented item\n\n2. Indented item\n\n4. Fourth item",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 30,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6271adc2757732278ed00e7770554dfb",
+        "text": "Unordered Lists\n\nTo create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items.\n\nBasic Syntax\n\n21\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\nMarkdown\n\nFirst item\n\n- Second item\n\nThird item\n\nFourth item\n\nFirst item\n\nSecond item\n\nThird item\n\nFourth item\n\n+ First item\n\n* Second item\n\nThird item\n\n+ Fourth item\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 30,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9a2430417252cde994e2c109b4064999",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\nThe HTML output of all three example lists is the same.\n\nHTML\n\n<ul>\n\n<li>First item</li>\n\n<li>Second item</li>\n\n<li>Third item</li>\n\n<li>Fourth item </li>\n\n</ul>\n\nThe rendered output looks like this:\n\nFirst item\n\nSecond item\n\n• Third item\n\n• Fourth item\n\nNesting List Items\n\nTo nest line items in an unordered list, indent the items four spaces or one tab.\n\nBasic Syntax\n\n22\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 31,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "611604ee54c7009d54697d2bd6bbd07e",
+        "text": "Markdown\n\nFirst item\n\n- Second item\n\n- Third item\n\n- Indented item\n\n- Indented item\n\n- Fourth item\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\nEe\n\n7\n\n8\n\n9\n\n10\n\n11\n\nHTML\n\n<ul>\n\n<li>First item</li> <li>Second item</li> <li>Third item <ul> <li>Indented item</li> <li>Indented item</li> </ul> </li> <li>Fourth item</li>\n\nThe rendered output looks like this:\n\nFirst item\n\n• Second item\n\no Third item\n\n– Indented item\n\n– Indented item\n\n• Fourth item",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 32,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ec9c8c6827b9b69099e59db71ae06945",
+        "text": "Adding Elements in Lists\n\nTo add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.\n\nParagraphs\n\nBasic Syntax\n\n23\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\nMarkdown\n\nThis is the first list item.\n\nHere's the second list item.\n\nI need to add another paragraph below the second list item.\n\nAnd here's the third list item.\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 32,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c8762bb8b68ebc1b11b8d2c307cae3c9",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\nHTML\n\n<ul>\n\n<li><p>This is the first list item.</p></li> <li><p>Here's the second list item.</p> <p>I need to add another paragraph below the second list item.</p> </li> <li><p>And here's the third list item.</p></li> </ul>\n\nThe rendered output looks like this:\n\n• This is the first list item.\n\n• Here’s the second list item.\n\nI need to add another paragraph below the second list item.\n\n• And here’s the third list item.\n\nBlockquotes\n\nBasic Syntax\n\n24\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 33,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "bd42edc737d4b17726b603781a9a102f",
+        "text": "Markdown\n\nThis is the first list item.\n\nHere's the second list item.\n\n> A blockquote would look great here.\n\nAnd here's the third list item.\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\nHTML\n\n<ul>\n\n<li><p>This is the first list item.</p></li> <li><p>Here's the second list item.</p> <blockquote> <p>A blockquote would look great here.</p> </blockquote> </li> <li><p>And here's the third list item.</p> </li> </ul>",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 34,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ac0893a3400043d66c8dbbefd2299b5c",
+        "text": "The rendered output looks like this:\n\n• This is the first list item.\n\n• Here’s the second list item.\n\nA blockquote would look great here.\n\n• And here’s the third list item.\n\nCode Blocks\n\nCode blocks are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.\n\nBasic Syntax\n\n25\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 34,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "93ed598eca99d0a4d890ee6643a81e03",
+        "text": "N\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\nMarkdown\n\n1. Open the file. 2. Find the following code block on line 21: <html> <head> <title>Test</title> </head>\n\n3. Update the title to match the name of your website.\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 35,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f5b76ca951069d4f0f2ee602bc56091b",
+        "text": "N\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\nHTML\n\n<ol>\n\n<li><p>Open the file.</p></li> <li><p>Find the following code block on line 21:</p> <pre><code>&lt;html&gt; &lt;head&gt; &lt;title&gt;Test&lt;/title&gt; &lt;/head&gt; </code></pre> </li> <li><p>Update the title to match the name of your website.</p></li> </ol>\n\nThe rendered output looks like this:\n\n1. Open the file.\n\n2. Find the following code block on line 21:\n\nBasic Syntax\n\n26\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 35,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "979d7d3cdeb722fab93c8442eadabec9",
+        "text": "S\n\n2\n\n3\n\n4\n\n<html>\n\n<head>\n\n<title>Test</title>\n\n</head>\n\n3. Update the title to match the name of your website.\n\nImages\n\n1\n\n2\n\nN\n\n3\n\n4\n\n5\n\n6\n\nMarkdown\n\n1. Open the file containing Tux, the Linux mascot. 2. Marvel at its beauty. ![Tux](images/tux.png) 3. Close the file.\n\n1. Open the file containing Tux, the Linux mascot.\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 36,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6b747b419f831501d06fee0361bde3da",
+        "text": "N\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\nHTML\n\n<ol>\n\n<li><p>Open the file containing Tux, the Linux mascot.</p></li> <li> <p>Marvel at its beauty.</p> <p><img src=\"images/tux.png\" alt=\"Tux\" /></p> </li> <li><p>Close the file.</p></li> </ol>\n\nThe rendered output looks like this:\n\n1. Open the file containing Tux, the Linux mascot.\n\n2. Marvel at its beauty.\n\nBasic Syntax\n\n27\n\n3. Close the file.\n\nTux",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 36,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "f0951068ddad01e809a806a5fda6ea04",
+        "text": "Code\n\n1\n\nTo denote a word or phrase as code, enclose it in tick marks (`). Markdown\n\nAt the command prompt, type `nano`.\n\n1\n\nHTML\n\nAt the command prompt, type <code>nano</code>.\n\nThe rendered output looks like this:\n\nAt the command prompt, type nano.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 37,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ee538fd01b46c3e1ca3d5c23e4a737a5",
+        "text": "Escaping Tick Marks\n\nIf the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks ( “).\n\nBasic Syntax\n\n28\n\n1\n\nMarkdown\n\n``Use `code` in your Markdown file.``\n\n1\n\nHTML\n\n<code>Use `code` in your Markdown file.</code>\n\nThe rendered output looks like this:\n\nUse `code` in your Markdown file.\n\n1\n\n2\n\n3\n\n4",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 37,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a5fcfd483a18d4d6413b0f60ac3df7a0",
+        "text": "Code Blocks\n\nTo create code blocks, indent every line of the block by at least four spaces or one tab.\n\nMarkdown\n\n<html>\n\n<head>\n\n</head>\n\n</html>\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\nEe\n\n7\n\n8\n\nHTML\n\n<pre> <code> &lt;html&gt; &lt;head&gt; &lt;/head&gt; &lt;/html&gt; </code> </pre>\n\nThe rendered output looks like this:\n\nBasic Syntax\n\n29\n\n1\n\n2\n\n3\n\n4\n\n<html>\n\n<head>\n\n</head>\n\n</html>\n\nTo create code blocks without indenting lines, use fenced code blocks.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 38,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ead350aa63dbb244f6580803297b214c",
+        "text": "Horizontal Rules\n\nTo create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.\n\nMarkdown\n\n1 2 3 4 5 1 2 3 4 5 *** --- _________________ HTML <hr /> <hr /> <hr />\n\nThe rendered output of all three looks identical:\n\nBasic Syntax\n\n30",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 39,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "29a881e530ba773b65f47f8d90f88b37",
+        "text": "Links\n\nTo create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).\n\nMarkdown\n\nUse [Duck Duck Go](https://duckduckgo.com).\n\n1\n\nHTML\n\n<p>Use <a href=\"https://duckduckgo.com\">Duck Duck Go</a>.</p>\n\nThe rendered output looks like this:\n\nUse Duck Duck Go.\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 40,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1b10c182f6f53c9e250f5a47005bc500",
+        "text": "Adding Titles\n\nYou can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.\n\nMarkdown\n\nUse [Duck Duck Go](https://duckduckgo.com \"My search engine!\").\n\n1\n\n2\n\nHTML\n\n<p>Use <a href=\"https://duckduckgo.com\" title=\"My search engine!\">Duck \\\n\nDuck Go</a>.</p>\n\nThe rendered output looks like this:\n\nUse Duck Duck Go.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 40,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1139178a0963b54709c10ad77ae7f5e1",
+        "text": "URLs and Email Addresses\n\nTo quickly turn a URL or email address into a link, enclose it in angle brackets.\n\nBasic Syntax\n\n31\n\n1\n\n2\n\nMarkdown\n\n<https://eff.org>\n\n<fake@example.com>\n\n1\n\n2\n\nHTML\n\n<a href=\"https://eff.org\">https://eff.org</a>\n\n<a href=\"mailto:fake@example.com\">fake@example.com</a>\n\n1\n\n2\n\nThe rendered output looks like this:\n\nhttps://eff.org\n\nfake@example.com",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 40,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "19b139852895ec0709b2211030049052",
+        "text": "Formatting Links\n\nTo emphasize links, add asterisks before and after the brackets and parentheses.\n\nMarkdown\n\nI love supporting **[EFF](https://eff.org)**.\n\nThis is the *[EFF](https://eff.org)*.\n\n1\n\n2\n\nHTML\n\n<p>I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>.\n\nThis is the <em><a href=\"https://eff.org\">EFF</a></em>.</p>\n\nThe rendered output looks like this:\n\nI love supporting EFF.\n\nThis is the EFF.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 41,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "47acefc0dc945345a42ea32220e69020",
+        "text": "Reference-style Links\n\nReference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.\n\nBasic Syntax\n\n32",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 41,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a757c55b3d01966b1fbfd6392be83804",
+        "text": "Formatting the First Part of the Link\n\nThe first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you’re storing elsewhere in your document.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 42,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "8ce2ab9c3017da143d8687b75fb4cbf5",
+        "text": "Although not required, you can include a space between the first and second set of brackets. Also, the label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.\n\nThis means the following example formats are all roughly equivalent for the first part of the link:\n\n• [hobbit-hole][1]\n\n• [hobbit-hole] [1]\n\n• [hobbit-hole][a]\n\n• [hobbit-hole][A]",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 42,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c56904e5a16c00704317fbce3e990720",
+        "text": "Formatting the Second Part of the Link\n\nThe second part of a reference-style link is formatted with the following attributes:\n\n1. The label, in brackets, followed immediately by a colon and at least one space (e.g., [label]: ).\n\n2. The URL for the link, which you can optionally enclose in angle brackets.\n\n3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 42,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0cbcc45822ef1bd38d0513fe568159ee",
+        "text": "This means the following example formats are all roughly equivalent for the second part of the link:\n\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle\n\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle \"Hobbit lifestyles\"\n\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'\n\nBasic Syntax\n\n33\n\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 42,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "06dcc7af7fd9066957a3b0fe9a7cc478",
+        "text": "• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> \"Hobbit lifestyles\"\n\n• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'\n\n• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 43,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ad1de54cbee0c5c04f54d5459aad65cb",
+        "text": "You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).\n\nAn Example Putting the Parts Together\n\nSay you add a URL as a standard URL link to a paragraph and it looks like this in Markdown:\n\nMarkdown\n\nIn a hole in the ground there lived a hobbit. Not a nasty, dirty, wet h\\\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 43,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "97373ebdb7943615d207ac24b226e496",
+        "text": "I\n\nole, filled with the ends of worms and an oozy smell, nor yet a dry, ba\\\n\nre, sandy hole with nothing in it to sit down on or to eat: it was a [h\\\n\n4\n\nobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle \"Hobbit life\\\n\nstyles\"), and that means comfort.\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 43,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c9385aece392206e1b055c12ed04dcf5",
+        "text": "Markdown\n\nIn a hole in the ground there lived a hobbit. Not a nasty, dirty, wet h\\ ole, filled with the ends of worms and an oozy smell, nor yet a dry, ba\\ re, sandy hole with nothing in it to sit down on or to eat: it was a [h\\ obbit-hole][1], and that means comfort.\n\n[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> \"Hobbit lifestyle\\ s\"\n\nIn both instances above, the HTML for the link would be identical:\n\nBasic Syntax\n\n34\n\nHTML\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 43,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d4feb67289f9577be37e20ea2f357c1c",
+        "text": "<a href=\"https://en.wikipedia.org/wiki/Hobbit#Lifestyle\" title=\"Hobbit \\\n\nlifestyles\">hobbit-hole</a>\n\nThe output is also identical:\n\nIn a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 44,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0c739e37027dc7893be1806cae3f8e18",
+        "text": "Images\n\n1\n\n2\n\nTo add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.\n\nMarkdown\n\n![Philadelphia's Magic Gardens. This place was so cool!](images/philly-\\\n\n![Philadelphia's Magic Gardens. This place was so cool!](images/philly-\\ magic-garden.png \"Philadelphia's Magic Gardens\")\n\nmagic-garden.png \"Philadelphia's Magic Gardens\")\n\n1\n\n2\n\nHTML",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 44,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "14e4c33622562d7057ae35dea3036400",
+        "text": "<img src=\"images/philly-magic-garden.png\" alt=\"Philadelphia's Magic Gar\\\n\ndens. This place was so cool!\" title=\"Philadelphia's Magic Gardens\" />\n\nThe rendered output looks like this:\n\nBasic Syntax\n\n35",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 44,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "4081bd4cab66b17e8cf9a752f9fbb4c9",
+        "text": ", e e 2\\ t — AY i = = > l - o N WSS W % = 3 § AN L3 ¢ PR N 't B < - o g -2 7 Y; ey B S = A O = T o = o2 i K 3 _{] 1 ¥ 3% m ] Ty P % & R &2 S =N W DY L 2 - o > \\ @ e (8 = =9, ~Té e o L2 5 477 NN ae \\{J idy 2 < L/ r 4 22 %) A0 L% 2 — -y L4 o,y 2 oy ( = Vi L A S | 7} 5 1 % 1k { B B % N . 1 | 0N 7 S N N N\n\nPhiladelphia’s Magic Gardens. This place was so cool!",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 45,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6a485a7e322e1e2c1065a66fdf4c0a4e",
+        "text": "Escaping Characters\n\n1\n\nTo display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\\) in front of the character.\n\nMarkdown\n\n\\* Without the backslash, this would be a bullet in an unordered list.\n\nBasic Syntax\n\n36\n\n1\n\n2\n\nHTML\n\n<p>* Without the backslash, this would be a bullet in an unordered list\\ .</p>\n\nThe rendered output looks like this:\n\n* Without the backslash, this would be a bullet in an unordered list.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 45,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "53bf48ff1f972731920fd6d5cbcdcf43",
+        "text": "Characters You Can Escape\n\nYou can use a backslash to escape the following characters.\n\nCharacter Name \\ backslash ` tick mark (see also escaping tick marks in code) * asterisk _ underscore {} curly braces [] brackets () parentheses # pound sign + plus sign - minus sign (hyphen) . dot ! exclamation mark | pipe (see also escaping pipe in tables)",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 46,
+            "text_as_html": "<table><thead><tr><th>Character</th><th>Name</th></tr></thead><tbody><tr><td>\\</td><td>backslash</td></tr><tr><td>&lt;</td><td>tick mark (see also escaping tick marks in code)</td></tr><tr><td>*</td><td>asterisk</td></tr><tr><td>—</td><td>underscore</td></tr><tr><td>(</td><td>curly braces</td></tr><tr><td></td><td>brackets</td></tr><tr><td>0</td><td>parentheses</td></tr><tr><td>#</td><td>pound sign</td></tr><tr><td colspan=\"2\">+ plus sign</td></tr><tr><td>-</td><td>minus sign (hyphen)</td></tr><tr><td colspan=\"2\">dot</td></tr><tr><td></td><td>exclamation mark</td></tr><tr><td></td><td>pipe (see also escaping pipe in tables)</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "7b58bea10211bbbdc3e2dfbe87a493a1",
+        "text": "4. Extended Syntax\n\nThe basic syntax outlined in John Gruber’s original design document added many of the elements needed on a day-to-day basis, but it wasn’t enough for some people. That’s where extended syntax comes in.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 47,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "6ce880f1338796ced34f9dab9036f36b",
+        "text": "Several individuals and organizations took it upon themselves to extend the basic syntax by adding additional elements like tables, code blocks, syntax highlight- ing, URL auto-linking, and footnotes. These elements can be enabled by using a lightweight markup language that builds upon the basic Markdown syntax, or by adding an extension to a compatible Markdown processor.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 47,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "94d414ce0d111c1fcb3340d2a6263298",
+        "text": "Availability\n\nExtended syntax isn’t available in all Markdown applications. You’ll need to check whether or not the lightweight markup language your application is using supports extended syntax. If it doesn’t, it may still be possible to enable extensions in your Markdown processor.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 47,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a68dcc139d9b4fc85facdcebaae50084",
+        "text": "Lightweight Markup Languages\n\nThere are several lightweight markup languages that are supersets of Markdown. They include Gruber’s basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:\n\n• CommonMark\n\n• GitHub Flavored Markdown (GFM)\n\n• Markdown Extra\n\n• MultiMarkdown\n\nExtended Syntax\n\n38",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 47,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "0efde23eee53879f27e0ffe889eadc68",
+        "text": "Markdown Processors\n\nThere are dozens of Markdown processors available. Many of them allow you to add extensions that enable extended syntax. Check your processor’s documentation for more information.\n\nTables\n\n1\n\nI\n\n2\n\n3\n\n4\n\nTo add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. You can optionally add pipes on either end of the table.\n\nMarkdown\n\n| Syntax\n\n| Description |\n\n| ----------- | ----------- |\n\n| Header\n\n| Title\n\n|",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 48,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "a2074cec38e6d0a8c064923d09ac6be2",
+        "text": "| Paragraph\n\n| Text\n\n|\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 48,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "34844da2560b66b7f6338bb0e20e3fe6",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\nHTML\n\n<table> <thead> <tr class=\"header\"> <th>Syntax</th> <th>Description</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td>Header</td> <td>Title</td> </tr> <tr class=\"even\"> <td>Paragraph</td> <td>Text</td>\n\nExtended Syntax\n\n39\n\n16\n\n17\n\n18\n\n</tr>\n\n</tbody>\n\n</table>\n\n1\n\n2\n\n3\n\n4\n\nThe rendered output looks like this:\n\nSyntax Description Header Title Paragraph Text\n\nCell widths can vary, as shown below. The rendered output will look the same.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 48,
+            "text_as_html": "<table><thead><tr><th>Syntax</th><th>Description</th></tr></thead><tbody><tr><td>Header</td><td>Title</td></tr><tr><td>Paragraph</td><td>Text</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e4f671427262745f557ece04f5a6df0a",
+        "text": "Markdown\n\n| Syntax | Description | | --- | ----------- | | Header | Title | | Paragraph | Text |\n\n) 4\n\nCreating tables with hyphens and pipes can be tedious. To speed up the process, try using the Markdown Tables Generator. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 49,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "071a5a0665688102a3c23def21056448",
+        "text": "Alignment\n\nYou can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.\n\nExtended Syntax\n\n40\n\nMarkdown\n\n1 2 3 4 | Syntax | Description | Test Text | | :--- | :----: | ---: | | Header | Title | Here's this | | Paragraph | Text | And more |\n\n1\n\n2\n\nN\n\n3\n\n4\n\n5\n\n6\n\n<9\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\nHTML",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 49,
+            "text_as_html": "<table><thead><tr><th></th><th>Syntax</th><th></th><th>Description</th><th>Test Text</th></tr></thead><tbody><tr><td>I</td><td>- - -</td><td></td><td>—</td><td>- - -</td></tr><tr><td>w</td><td>Header</td><td>Title</td><td></td><td>Here's this</td></tr><tr><td></td><td>Paragraph</td><td>Text</td><td></td><td>And more</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "805b9cfbbfa439f5bb2485e40202f750",
+        "text": "<table> <thead> <tr class=\"header\"> <th style=\"text-align: left;\">Syntax</th> <th style=\"text-align: center;\">Description</th> <th style=\"text-align: right;\">Test Text</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align: left;\">Header</td> <td style=\"text-align: center;\">Title</td> <td style=\"text-align: right;\">Here’s this</td> </tr> <tr class=\"even\"> <td style=\"text-align: left;\">Paragraph</td> <td style=\"text-align: center;\">Text</td> <td style=\"text-align: right;\">And",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 50,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "b27a4a2ef659d27a60660927746bb27a",
+        "text": "more</td> </tr> </tbody> </table>",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 50,
+            "is_continuation": true,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9dc50e2fa9de77baa035ec89610da855",
+        "text": "The rendered output looks like this:\n\nSyntax Description Header Title Paragraph Text Test Text Here’s this And more\n\nExtended Syntax\n\n41\n\nFormatting Text in Tables\n\nYou can format the text within tables. For example, you can add links, code (words or phrases in tick marks (`) only, not code blocks), and emphasis.\n\nYou can’t add headings, blockquotes, lists, horizontal rules, images, or HTML tags.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 50,
+            "text_as_html": "<table><thead><tr><th>Syntax</th><th>Description</th><th>Test Text</th></tr></thead><tbody><tr><td>Header</td><td>Title</td><td>Here’s this</td></tr><tr><td>Paragraph</td><td>Text</td><td>And more</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "2d13ae12b47f8accb16bcafe6708408e",
+        "text": "Escaping Pipe Characters in Tables\n\nYou can display a pipe (|) character in a table by using its HTML character code (&#124;).",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 51,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "65d3f955ea1326d03386e9a2cc120aca",
+        "text": "Fenced Code Blocks\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\nThe basic Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three tick marks ( or three tildes (~~~) on the lines before and after the code block. The best part? You don’t have to indent any lines!",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 51,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "9d72c77d68b366c8d85adfb36730e077",
+        "text": "Markdown\n\n``` { \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 }\n\nExtended Syntax\n\n42\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\nEe\n\n7\n\n8\n\n9\n\nHTML\n\n<pre> <code> { &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25 } </code> </pre>\n\nThe rendered output looks like this:\n\n1\n\n2\n\n3\n\nN\n\n4\n\n5\n\n{ \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 }\n\n) 4\n\nNeed to display tick marks inside a code block? See this section to learn how to escape them.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 51,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e6a03614ee9a6d0dc77808a83de94167",
+        "text": "Syntax Highlighting\n\nMany Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the tick marks before the fenced code block.\n\nExtended Syntax\n\n43\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\nMarkdown\n\n```json { \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 }\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 52,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "4b42bd93e3ec138fb6ab74c9df8ae9b7",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\nHTML\n\n<code class=\"language-json\"> { &quot;firstName&quot;: &quot;John&quot;, &quot;lastName&quot;: &quot;Smith&quot;, &quot;age&quot;: 25 } </code> </pre>\n\nThe rendered output looks like this:\n\n1\n\nI\n\n2\n\n3\n\n4\n\n5\n\n{ \"firstName\": \"John\", \"lastName\": \"Smith\", \"age\": 25 }\n\nFootnotes\n\nFootnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears\n\nExtended Syntax\n\n44\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 53,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "7e9be8d68d6770eaf30761bf7a45a125",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\nwhere you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.\n\nTo create a footnote reference, add a caret and an identifier inside brackets ([^1]). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 54,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "b03cfd59410ec4c49a3f5e60592d44c5",
+        "text": "Add the footnote using another caret and number inside brackets with a colon and text ([^1]: My footnote.). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.\n\nMarkdown",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 54,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "cf92fef783cadaab8d96f422bbd75012",
+        "text": "Here's a simple footnote,[^1] and here's a longer one.[^bignote] [^1]: This is the first footnote. [^bignote]: Here's one with multiple paragraphs and code. Indent paragraphs to include them in the footnote. `{ my code }` Add as many paragraphs as you like.\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 54,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d37d96bbd77a1afe45d1c6304107b70f",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\nHTML\n\n<p>\n\nHere’s a simple footnote,<a href=\"#fn1\" class=\"footnote-ref\" id=\"fnre\\ f1\"><sup>1</sup></a> and here’s a longer one.<a href=\"#fn2\" class=\"foot\\ note-ref\" id=\"fnref2\"><sup>2</sup></a> </p> <section class=\"footnotes\"> <hr /> <ol> <li id=\"fn1\"><p>This is the first footnote.<a href=\"#fnref1\" class=\\\n\nExtended Syntax\n\n45\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 54,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "66581d1e367ee3d7aaf9ee5a54442103",
+        "text": "\"footnote-back\">&#8617;&#xFE0E;</a></p></li> <li id=\"fn2\"> <p>Here’s one with multiple paragraphs and code.</p> <p>Indent paragraphs to include them in the footnote.</p> <p><code>{ my code }</code></p> <p>Add as many paragraphs as you like.<a href=\"#fnref2\" class=\"fo\\ otnote-back\">&#8617;&#xFE0E;</a></p> </li> </ol> </section>\n\nThe rendered output looks like this:\n\nHere’s a simple footnote,¹ and here’s a longer one.²",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 55,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "5de525714bcb325df3154059ab92fb81",
+        "text": "Heading IDs\n\nMany Markdown processors support custom IDs for headings — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.\n\nMarkdown\n\n### My Great Heading {#custom-id}\n\n1\n\nHTML\n\n<h3 id=\"custom-id\">My Great Heading</h3>\n\n¹This is the first footnote.\n\n²Here’s one with multiple paragraphs and code.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 55,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "dc53ec7e61e2a9e29ae1e7b462b404ea",
+        "text": "Indent paragraphs to include them in the footnote.\n\n{ my code }\n\nAdd as many paragraphs as you like.\n\nExtended Syntax\n\n46\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 55,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "de34b0f0b4088c806b2034400fa54046",
+        "text": "Linking to Heading IDs\n\nYou can link to headings with custom IDs in the file by creating a standard link with a number sign (#) followed by the custom heading ID.\n\nMarkdown\n\n[Heading IDs](#heading-ids)\n\n1\n\nHTML\n\n<a href=\"#heading-ids\">Heading IDs</a>\n\nOther websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, [Heading IDs](https:/www.eff.org/page#heading-ids)).",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 56,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "43e39b2ce84d345c760fd7a7c61239a0",
+        "text": "Definition Lists\n\nSome Markdown processors allow you to create definition lists of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.\n\nMarkdown\n\n1 First Term\n\n[ SIS\n\n: This is the definition of the first term.\n\n4 Second Term\n\n5\n\n: This is one definition of the second term.\n\n6\n\n: This is another definition of the second term.\n\nExtended Syntax\n\n47\n\n1",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 56,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "8a1717167af3fe25c13e8d41027dfb17",
+        "text": "I\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\nHTML\n\n<dl>\n\n<dt>First Term</dt>\n\n<dd>This is the definition of the first term.</dd>\n\n<dt>Second Term</dt>\n\n<dd>This is one definition of the second term. </dd>\n\n<dd>This is another definition of the second term.</dd>\n\n</dl>\n\nThe rendered output looks like this:\n\nFirst Term\n\nThis is the definition of the first term.\n\nSecond Term\n\nThis is one definition of the second term.\n\nThis is another definition of the second term.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 57,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "db71db88d8317e0651667b25d41934f3",
+        "text": "Strikethrough\n\nYou can “strikethrough” words by putting a horizontal line through the center of them. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (~~) before and after the words.\n\nMarkdown\n\nThe world is ~~flat~~ round.\n\n1\n\nHTML\n\n<p>The world is <del>flat</del> round.</p>\n\nThe rendered output looks like this:\n\nThe world is flat round.\n\nExtended Syntax\n\n48",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 57,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "478da0c145b0643cf9a3c4b408caabbb",
+        "text": "Task Lists\n\n1\n\n2\n\n3\n\nTask lists allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (-) and brackets with a space ([ ]) in front of task list items. To select a checkbox, add an x in between the brackets ([x]).\n\nMarkdown\n\n- [x] Write the press release\n\n- [ ] Update the website\n\n- [ ] Contact the media\n\nThe rendered output looks like this:\n\nWrite the press release",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 58,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "ae9b3135c240533a9229f2eb2fc7c30e",
+        "text": "Update the website\n\nContact the media\n\nTask list\n\nAutomatic URL Linking\n\nMany Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t used brackets.\n\nMarkdown\n\n1 http://example.com\n\nExtended Syntax\n\n49\n\nHTML\n\n<a href=\"http://example.com\">http://example.com</a>\n\nThe rendered output looks like this:\n\nhttp://example.com",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 58,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e2dd72b16a4eeb5b7dba3d8b44dbdf73",
+        "text": "Disabling Automatic URL Linking\n\nIf you don’t want a URL to be automatically linked, you can remove the link by denoting the URL as code with tick marks.\n\nMarkdown\n\n`http://www.example.com`\n\n1\n\nHTML\n\n<code>http://www.example.com</code>\n\nThe rendered output looks like this:\n\nhttp://www.example.com",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 59,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "c5f214fa09adc24cab5a4af3aaed475c",
+        "text": "5. Cheat Sheet\n\nThis cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case! If you need more information about any of these elements, refer back to the chapters on basic and extended syntax.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 60,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "d150fcf2ffec119366dd6e126196e298",
+        "text": "Basic Syntax\n\nThese are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.\n\nElement Markdown Syntax Heading # H1 ## H2 ### H3 Bold **bold text** Italic *italicized text* Blockquote > blockquote Ordered List 1. First item 2. Second item 3. Third item Unordered List - First item - Second item - Third item Code `code` Horizontal Rule --- Link [title](https://www.example.com) Image ![alt text](image.jpg)\n\nCheat Sheet\n\n51",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 60,
+            "text_as_html": "<table><thead><tr><th>Element</th><th>Markdown Syntax</th></tr></thead><tbody><tr><td rowspan=\"3\">Heading</td><td># H1</td></tr><tr><td>## H2</td></tr><tr><td>43</td></tr><tr><td>Bold</td><td>**pold text*</td></tr><tr><td>Ttalic</td><td>*italicized text*</td></tr><tr><td>Blockquote</td><td>&gt; blockquote</td></tr><tr><td>Ordered List</td><td>First item</td></tr><tr><td></td><td>Second item</td></tr><tr><td></td><td>Third item</td></tr><tr><td rowspan=\"3\">Unordered List</td><td>' First item</td></tr><tr><td>' Second item</td></tr><tr><td>- Third item</td></tr><tr><td>Code</td><td>“code</td></tr><tr><td colspan=\"2\">- - - Horizontal Rule</td></tr><tr><td>Link</td><td>[title] (https://www.example.com)</td></tr><tr><td>Image</td><td>[alt text](image.jpg)</td></tr></tbody></table>",
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "1c23550885d464bf3324a2f3157e0cc0",
+        "text": "Extended Syntax\n\nThese elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 61,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "fbb03ace95487070f6f9e92b85e8697a",
+        "text": "Element Markdown Syntax Table | Syntax | Description | [ | Header | Title | | Paragraph | Text | Fenced Code Block { \"firstName\": \"John\" \"lastName\": \"Smith\", \" \" age 25 } Footnote Here's a sentence with a footnote [*] [*]: This is the footnote. Heading ID ### My Creat Heading {#*custom-id} Definition List term definition Strikethrough ~~The world is flat.~n~ Task List - [x] Write the press release - [ ] Update the website - [ ] Contact the media",
+        "metadata": {
+            "text_as_html": "<table><tr><td>Element</td><td>Markdown Syntax</td></tr><tr><td>Table</td><td>| Syntax | Description |</td></tr><tr><td>[</td></tr><tr><td>| Header | Title | | Paragraph | Text |</td></tr><tr><td/></tr><tr><td/></tr><tr><td>Fenced Code Block</td><td>{</td></tr><tr><td/><td>\"firstName\": \"John\"</td></tr><tr><td/><td>\"lastName\": \"Smith\",</td></tr><tr><td/><td>\" \" age 25</td></tr><tr><td/><td>}</td></tr><tr><td>Footnote</td><td>Here's a sentence with a footnote [*] [*]: This is the footnote.</td></tr><tr><td>Heading ID</td><td>### My Creat Heading {#*custom-id}</td></tr><tr><td>Definition List</td><td>term definition</td></tr><tr><td>Strikethrough</td><td>~~The world is flat.~n~</td></tr><tr><td>Task List</td><td>- [x] Write the press release</td></tr><tr><td>- [ ] Update the website</td></tr><tr><td>- [ ] Contact the media</td></tr></table>",
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 61,
+            "filename": "markdown_manual.pdf"
+        }
+    },
+    {
+        "type": "CompositeElement",
+        "element_id": "e4fd11427b1d92c829b3168460052af1",
+        "text": "About the Author\n\nMatt Cone is a technical writer at Fastly. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt’s first book, Master Your Mac, was published by No Starch Press. To get in touch with Matt, visit http://mattcone.com.",
+        "metadata": {
+            "filetype": "application/pdf",
+            "languages": [
+                "eng"
+            ],
+            "page_number": 62,
+            "filename": "markdown_manual.pdf"
+        }
+    }
+]
