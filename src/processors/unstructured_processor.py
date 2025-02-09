@@ -72,7 +72,7 @@ class UnstructuredProcessor:
             "chunking_strategy": "by_title",
             "max_characters": 120000,  # Very large chunk size
             "new_after_n_chars": 100000,  # Slightly less, soft limit
-            "combine_under_n_chars": 500, # Combine small titles/paragraphs
+            "combine_under_n_chars": 10000, # Combine small titles/paragraphs
             "extract_image_block_types": '["Image", "Table"]',
             "pdf_infer_table_structure": "true",
         }
@@ -148,6 +148,7 @@ class UnstructuredProcessor:
 
 # Example Usage
 
+'''
 def main():
     # Initialize processor
     api_key = os.getenv("UNSTRUCTURED_API_KEY")
@@ -175,3 +176,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
