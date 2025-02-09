@@ -6,15 +6,15 @@ from src.formatters.mooc_formatter import MOOCFormatter
 load_dotenv()
 
 def main():
-    '''
+    
     # Initialize generator
-    generator = PresentationGenerator(output_dir="data/output")
+    #generator = PresentationGenerator(output_dir="data/output")
     
     # Process input file
-    input_file = "data/processed_input/chunking_big_cleaned.json"  # Replace with your input file path
-    output_file = generator.run(input_file)
-    print(f"Results saved to: {output_file}")
-    '''
+    #input_file = "data/processed_input/chunking_big_cleaned.json"  # Replace with your input file path
+    #output_file = generator.run(input_file)
+    #print(f"Results saved to: {output_file}")
+    
     
     # Initialize the formatter
     formatter = MOOCFormatter(output_dir="data/pdf_presentation")

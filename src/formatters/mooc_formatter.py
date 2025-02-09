@@ -1,6 +1,7 @@
 import json
 from typing import List, Dict, Any
 from pathlib import Path
+import re
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -29,6 +30,53 @@ class MOOCFormatter:
             leading=14,
             spaceAfter=10
         ))
+
+    def sanitize_content(self, content: str) -> str:
+        """
+        Sanitize content to be compatible with ReportLab's paragraph parser.
+        
+        Args:
+            content (str): Raw content to sanitize
+            
+        Returns:
+            str: Sanitized content
+        """
+        # Replace markdown-style links with simple text
+        content = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', content)
+        
+        # Replace HTML links with simple text
+        content = re.sub(r'<a.*?>(.*?)</a>', r'\1', content)
+        
+        # Remove image tags
+        content = re.sub(r'!\[.*?\]\(.*?\)', '[Image]', content)
+        content = re.sub(r'<img.*?/>', '[Image]', content)
+        
+        # Convert markdown bullet points to simple bullet points
+        content = content.replace('* ', '• ')
+        
+        # Clean up any remaining HTML tags except for basic formatting
+        allowed_tags = ['b', 'i', 'u', 'br']
+        content = re.sub(r'<(?!/?(?:' + '|'.join(allowed_tags) + r')\b)[^>]*>', '', content)
+        
+        return content
+        
+    def format_slide_content(self, slide_number: int, title: str, content: str) -> str:
+        """
+        Format the slide content with proper structure.
+        
+        Args:
+            slide_number (int): Number of the slide
+            title (str): Slide title
+            content (str): Slide content
+            
+        Returns:
+            str: Formatted slide content
+        """
+        # Sanitize the content while preserving basic formatting
+        sanitized_content = self.sanitize_content(content)
+        
+        # Format with slide number, title, and sanitized content
+        return f"<b>Slide {slide_number}:</b> {title}<br/><br/>{sanitized_content}"
         
     def create_pdf(self, json_data: List[Dict[str, Any]], output_filename: str) -> str:
         """
@@ -58,10 +106,21 @@ class MOOCFormatter:
         table_data = [["Slide Content", "Instructor Dialogue"]]  # Header row
         
         # Add content rows
-        for item in json_data:
+        for idx, item in enumerate(json_data, 1):
             result = item["result"]
-            content_cell = Paragraph(result["content"], self.styles["CellStyle"])
-            dialogue_cell = Paragraph(result["dialogue"], self.styles["CellStyle"])
+            
+            # Format and sanitize slide content
+            formatted_content = self.format_slide_content(
+                idx,
+                result["title"],
+                result["content"]
+            )
+            
+            # Sanitize dialogue content
+            sanitized_dialogue = self.sanitize_content(result["dialogue"])
+            
+            content_cell = Paragraph(formatted_content, self.styles["CellStyle"])
+            dialogue_cell = Paragraph(sanitized_dialogue, self.styles["CellStyle"])
             table_data.append([content_cell, dialogue_cell])
         
         # Create the table

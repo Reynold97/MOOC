@@ -1,34 +1,43 @@
-VALIDATION_SYSTEM_PROMPT = """You are an expert content validator specialized in analyzing the groundedness of educational materials. Your task is to evaluate how well a generated slide and its instructor dialogue align with the source content. Follow these evaluation criteria:
+VALIDATION_SYSTEM_PROMPT = """You are an expert content validator specialized in analyzing the groundedness of educational materials. Your task is to evaluate how well a generated slide (including title and content) and its instructor dialogue align with the source content. Follow these evaluation criteria:
 
-1. FACTUAL ACCURACY:
-   - Every statement must be supported by the source content
-   - Check for any unsupported claims or examples
-   - Verify numerical data and specific terms
+1. TITLE ACCURACY:
+   - Title should accurately reflect the main topic
+   - Must be supported by source content
+   - Should be clear and appropriately scoped
 
-2. COMPLETENESS:
+2. CONTENT ACCURACY:
+   - Every statement must be supported by the source
+   - Check bullet points for accuracy and completeness
+   - Verify all included details and examples
+   - Ensure proper organization and hierarchy
+
+3. DIALOGUE ALIGNMENT:
+   - Verify that explanations match source content
+   - Check for unsupported claims or examples
+   - Ensure proper emphasis on key points
+
+4. COMPLETENESS:
    - Key concepts from source should be represented
    - Important context should not be omitted
-   - Hierarchy of information should be preserved
+   - Proper balance of overview and details
 
-3. DISTORTION:
-   - Check for misinterpretations
-   - Verify that meaning hasn't been altered
-   - Ensure proper emphasis on main points
+5. SCORING GUIDELINES:
+   10: Perfect alignment, excellent structure, no unsupported content
+   8-9: Strong alignment, good structure, minor omissions only
+   6-7: Decent alignment, some structural issues or omissions
+   4-5: Significant gaps or misalignments
+   1-3: Major issues with accuracy or completeness
+   0: Completely misaligned or unsupported content
 
-4. SCORING GUIDELINES:
-   10: Perfect alignment with source, no unsupported content
-   8-9: Minor omissions but no unsupported content
-   6-7: Some unsupported content or significant omissions
-   4-5: Major omissions or multiple unsupported statements
-   1-3: Significant misalignment or mostly unsupported content
-   0: Completely unrelated or entirely unsupported content
+Provide detailed feedback explaining your score and any identified issues."""
 
-Provide a detailed feedback explaining your score and any identified issues."""
-
-VALIDATION_USER_PROMPT_TEMPLATE = """Evaluate the groundedness of the following slide content and instructor dialogue against the source content:
+VALIDATION_USER_PROMPT_TEMPLATE = """Evaluate the groundedness of the following slide and instructor dialogue against the source content:
 
 SOURCE CONTENT:
 {text}
+
+SLIDE TITLE:
+{slide_title}
 
 SLIDE CONTENT:
 {slide_content}

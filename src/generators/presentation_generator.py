@@ -19,6 +19,7 @@ load_dotenv()
 
 class SlideResult(BaseModel):
     """Model for the final slide result including validation."""
+    title: str
     content: str
     dialogue: str
     groundedness_score: float
@@ -47,13 +48,13 @@ class PresentationGenerator:
 
     def generate_slide(self, text: str) -> Dict[str, str]:
         """
-        Generate a single slide with content and dialogue using GPT-4.
+        Generate a single slide with title, content and dialogue using GPT-4.
         
         Args:
             text (str): Source text to create slide from
             
         Returns:
-            Dict[str, str]: Dictionary containing slide content and dialogue
+            Dict[str, str]: Dictionary containing slide title, content and dialogue
         """
         # Format the user prompt with the provided text
         user_prompt = STORYBOARD_USER_PROMPT_TEMPLATE.format(text=text)
@@ -67,20 +68,24 @@ class PresentationGenerator:
             response_format={
                 "type": "json_schema",
                 "json_schema": {
-                    "name": "slide_content",  # Added required name parameter
+                    "name": "slide_content",
                     "schema": {
                         "type": "object",
                         "properties": {
+                            "title": {
+                                "type": "string",
+                                "description": "The title of the slide"
+                            },
                             "content": {
                                 "type": "string",
-                                "description": "The content that will appear on the slide"
+                                "description": "The content that will appear on the slide, including overview and bullet points"
                             },
                             "dialogue": {
                                 "type": "string",
                                 "description": "The instructor's dialogue for this slide"
                             }
                         },
-                        "required": ["content", "dialogue"],
+                        "required": ["title", "content", "dialogue"],
                         "additionalProperties": False
                     },
                     "strict": True
@@ -90,12 +95,13 @@ class PresentationGenerator:
         
         return json.loads(response.choices[0].message.content)
 
-    def validate_slide(self, text: str, slide_content: str, slide_dialogue: str) -> Dict[str, Any]:
+    def validate_slide(self, text: str, slide_title: str, slide_content: str, slide_dialogue: str) -> Dict[str, Any]:
         """
         Validate the groundedness of generated content against source material.
         
         Args:
             text (str): Original source text
+            slide_title (str): Generated slide title
             slide_content (str): Generated slide content
             slide_dialogue (str): Generated instructor dialogue
             
@@ -105,6 +111,7 @@ class PresentationGenerator:
         # Format the user prompt with all required content
         user_prompt = VALIDATION_USER_PROMPT_TEMPLATE.format(
             text=text,
+            slide_title=slide_title,
             slide_content=slide_content,
             slide_dialogue=slide_dialogue
         )
@@ -128,7 +135,7 @@ class PresentationGenerator:
                             },
                             "feedback": {
                                 "type": "string",
-                                "description": "Explanation of the score and any issues found"
+                                "description": "Detailed feedback on title accuracy, content alignment, and dialogue appropriateness"
                             }
                         },
                         "required": ["score", "feedback"],
@@ -174,12 +181,14 @@ class PresentationGenerator:
                 print(f"Validating slide for element {element['element_id']}...")
                 validation = self.validate_slide(
                     element['text'],
+                    slide['title'],
                     slide['content'],
                     slide['dialogue']
                 )
                 
                 # Store results using Pydantic model for validation
                 result = SlideResult(
+                    title=slide['title'],
                     content=slide['content'],
                     dialogue=slide['dialogue'],
                     groundedness_score=validation['score'],
