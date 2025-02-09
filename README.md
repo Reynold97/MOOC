@@ -57,16 +57,17 @@ UNSTRUCTURED_API_URL=your_unstructured_api_url
     ├── unstructured_docs/
     ├── unstructured_notebooks/
 ├── example_data/              # Example files and outputs
+├── resorces/                  # Images for README                     
 ├── src/                       # Source code
-│   ├── formatters/           # PDF formatting modules
-│   ├── generators/           # Presentation generation modules
-│   ├── processors/           # PDF processing modules
-│   ├── prompts/              # GPT prompts
-│   └── utils/                # Utility functions
-├── tests/                    # Test files
-├── .env                      # Environment variables
-├── requirements.txt          # Python dependencies
-└── run.py                    # Main execution script
+│   ├── formatters/            # PDF formatting modules
+│   ├── generators/            # Presentation generation modules
+│   ├── processors/            # PDF processing modules
+│   ├── prompts/               # GPT prompts
+│   └── utils/                 # Utility functions
+├── tests/                     # Test files
+├── .env                       # Environment variables
+├── requirements.txt           # Python dependencies
+└── run.py                     # Main execution script
 ```
 
 ## Components Description
@@ -138,16 +139,22 @@ python run.py
 ## Example Data
 
 The `example_data/` directory contains sample files generated during the experimentation phase:
-- `input/`: Example PDF files
-- `processed_input/`: Processed JSON files showing different processing stages
-- `output/`: Generated storyboard JSON files
-- `pdf_presentation/`: Final PDF presentations
+- `input/`: The required document, Markdown Manual. 
+- `processed_input/`: Processed JSON files showing different processing stages, explanation below.
+- `output/`: Generated storyboard JSON files, explanation below.
+- `pdf_presentation/`: Final PDF presentation
 
 ## Notes
 
 - Ensure all API keys are properly configured in the `.env` file
 - Large PDFs may require additional processing time
 - Check example outputs for expected format
+
+## Result
+
+<p align="center">
+  <img src="resources\Captura de pantalla 2025-02-09 193342.png" alt="Result Presentation" width="800"/>
+</p>
 
 ## Reasoning and Experimentation:
 
@@ -258,7 +265,7 @@ class SlideResult(BaseModel):
     title: str
     content: str
     dialogue: str
-        groundedness_score: float
+    groundedness_score: float
     feedback: str
 ```
 Validation prompt: [src\prompts\val_prompts.py](src\prompts\val_prompts.py)
